@@ -1,0 +1,45 @@
+footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: #605770;
+}
+
+footer #icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer #icons-container a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 1.5rem;
+  transition: all 0.2s;
+}
+
+footer #icons-container a:hover {
+color: #CB9D94;
+background: -webkit-linear-gradient(45deg, #CB9D94, #9E7682);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+footer #developed-with {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer #developed-with p {
+  font-size: 0.9rem;
+}
+
+footer #developed-with p svg {
+  color: #9E7682;
+}
