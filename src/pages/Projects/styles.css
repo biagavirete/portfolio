@@ -6,10 +6,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 16px;
+}
+
+.projects h3 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .projects p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
 }
 
