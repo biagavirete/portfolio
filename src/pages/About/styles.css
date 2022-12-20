@@ -1,0 +1,64 @@
+.about {
+  width: 100%;
+  height: 100vh;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 60%;
+  height: 100vh;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.profile img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: solid 0.2rem #EDCB96;
+  margin: 1rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text h3 {
+  font-size: 18px;
+}
+
+.techs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.techs p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  margin: 0.3rem;
+  background: #9E7682;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.download {
+  align-self: center;
+}
