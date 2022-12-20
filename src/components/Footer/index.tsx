@@ -16,7 +16,9 @@ function Footer() {
         <a href="https://wa.me/5519998083142" rel="noopener noreferrer" target="_blank"><WhatsAppIcon fontSize="medium" /></a>
       </div>
       <div id="developed-with">
-        <p>Developed with <FavoriteIcon fontSize="small" /> using React</p>
+        <p>
+          Developed with <FavoriteIcon /> using React
+        </p>
       </div>
     </footer>
   );

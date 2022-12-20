@@ -22,7 +22,6 @@
 }
 
 .about .prompt {
-  /* width: 40%; */
   font-size: 30px;
 }
 
@@ -33,7 +32,7 @@
 .prompt svg {
   font-size: 60px;
   margin: 5px;
-  color: white;
+  color: #FFFFFF;
   transition: all 0.2s;
 }
 
@@ -44,26 +43,11 @@ background: -webkit-linear-gradient(45deg, #CB9D94, #9E7682);
 -webkit-text-fill-color: transparent;
 }
 
-.skills {
-  font-size: 35px;
-  width: 100%;
+.contact {
   display: flex;
+  flex-direction: row;
+  gap: 24px;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skills h1 {
-  color: #FFFFFF;
-}
-
-.skills .list {
-  list-style: none;
-  width: 60%;
-}
-
-.list span {
-  font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -75,16 +59,5 @@ background: -webkit-linear-gradient(45deg, #CB9D94, #9E7682);
     margin-top: 10px;
     font-size: 20px;
     width: 80%;
-  }
-
-  .skills {
-    text-align: center;
-  }
-  .list {
-    padding: 0;
-  }
-
-  .skills h2 {
-    font-size: 30px;
   }
 }

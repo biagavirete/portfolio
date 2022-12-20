@@ -1,0 +1,46 @@
+.projects {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projects .projectTitle {
+  text-align: center;
+  color: #EDCB96;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.projectList {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1520px) {
+  .projects {
+    height: calc(100vh + 25vh);
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .projects {
+    height: calc(100vh + 25vh);
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .projects {
+    height: calc(100vh + 100vh);
+  }
+}

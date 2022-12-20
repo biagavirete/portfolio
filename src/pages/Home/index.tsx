@@ -10,9 +10,11 @@ function Home() {
         <h2> Hi, I am Beatriz!</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <a href="mailto:biagavirete@gmail.com" rel="noopener noreferrer" target="_blank"><MailIcon /></a>
-          <a href="https://github.com/biagavirete" rel="noopener noreferrer" target="_blank"><GitHubIcon /></a>
-          <a href="https://www.linkedin.com/in/bea-teixeira/" rel="noopener noreferrer" target="_blank"><LinkedInIcon /></a>
+          <div className="contact">
+            <a href="mailto:biagavirete@gmail.com" rel="noopener noreferrer" target="_blank"><MailIcon /></a>
+            <a href="https://github.com/biagavirete" rel="noopener noreferrer" target="_blank"><GitHubIcon /></a>
+            <a href="https://www.linkedin.com/in/bea-teixeira/" rel="noopener noreferrer" target="_blank"><LinkedInIcon /></a>
+          </div>
         </div>
       </div>
     </div>
